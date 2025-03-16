@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Operations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>ARRAY OPERATIONS</h1>
+
+    <div>
+        <input type="text" id="customValue" placeholder="Enter numbers separated by comma" />
+        <button onclick="addCustomValues()">Create Array</button>
+        <div class="button-row">
+            <button onclick="pushValue()">Push Value</button>
+            <button onclick="popValue()">Pop Value</button>
+            <button onclick="shiftValue()">Shift Value</button>
+            <button onclick="unshiftValue()">Unshift Value</button>
+        </div>
+        <div class="button-row">
+            <button onclick="spliceValue()">Splice Values</button>
+            <button onclick="sliceValues()">Slice Values</button>
+            <button onclick="reduceValues()">Reduce Values</button>
+            <button onclick="reverseValues()">Reverse Array</button>
+        </div>
+    
+        <p id="arrayDisplay">[]</p>
+        <div id="operationResult"></div>
+    </div>
+    
+
+    <script src="operation.js"></script>
+</body>
+</html>

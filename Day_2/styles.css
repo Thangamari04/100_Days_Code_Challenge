@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+body {
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 350px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center; 
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    flex: 1;
+    max-width: 150px; 
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+div {
+    text-align: center;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center; 
+    margin-top: 40px;
+    flex-wrap: wrap; 
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%; 
+    max-width: 350px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    overflow: hidden; 
+    white-space: nowrap; 
+}
+
+input + button {
+    margin-top: 15px;
+}
+
+#arrayDisplay {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#operationResult {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+    background: linear-gradient(135deg, #f3f4f6, #ffffff);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+
+    width: 90%; 
+    max-width: 500px; 
+    min-height: 50px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#operationResult:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#operationResult p {
+    margin: 12px 0;
+    text-align: center;
+    line-height: 1.5; 
+}
+
+#operationResult strong {
+    color: #007BFF;
+    font-weight: bold;
+}
