@@ -38,6 +38,10 @@ button:hover {
     background-color: #45a049;
 }
 
+button:active {
+    background-color: #f734bc; /* New color on button click */
+}
+
 div {
     text-align: center;
 }
@@ -64,6 +68,7 @@ input {
 input + button {
     margin-top: 15px;
 }
+
 
 #arrayDisplay {
     margin-top: 30px;
